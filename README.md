@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![abdelino17](https://circleci.com/gh/abdelino17/devopsnano-microservices.svg?style=svg)](https://circleci.com/gh/abdelino17/devopsnano-microservices)
 
 ## Project Overview
 
