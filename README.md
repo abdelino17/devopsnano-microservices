@@ -1,6 +1,6 @@
 [![abdelino17](https://circleci.com/gh/abdelino17/devopsnano-microservices.svg?style=svg)](https://circleci.com/gh/abdelino17/devopsnano-microservices)
 
-## : Operationalize a Machine Learning Microservice API (DevOps Nanodegree - Project 5)
+## Operationalize a Machine Learning Microservice API
 
 In this project, I have applied the skills I have acquired in the course (Microservices at Scale using AWS & Kubernetes) operationalize a Machine Learning Microservice API. 
 
