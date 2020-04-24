@@ -25,18 +25,41 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 
 ## Setup the Environment
 
-* Create a virtualenv and activate it
-* Run `make install` to install the necessary dependencies
+* Create a virtualenv and activate it:
+```
+$ make setup
+```
+* Install the necessary dependencies:
+```
+$ make install
+```
 
 ### Running `app.py`
 
-1. Standalone:  `python app.py`
-2. Run in Docker:  `./run_docker.sh`
-3. Run in Kubernetes:  `./run_kubernetes.sh`
+There are three ways for running `app.py`: standalone, with docker and with kubernetes.
 
-### Kubernetes Steps
+#### Standalone
+* Run `app.py`
+```
+$ python app.py
+```
 
-* Setup and Configure Docker locally
-* Setup and Configure Kubernetes locally
-* Create Flask app in Container
-* Run via kubectl
+#### Running in docker
+* Run the `run_docker.sh` which will build the image and will run directly the container
+```
+$ ./run_docker.sh
+```
+
+#### Running in kubernetes
+* Run the `run_kubernetes.sh` which will run a pod containing the docker image and will expose it
+```
+$ minikube start
+$ ./run_kubernetes.sh
+```
+
+### Files in the directory
+
+* `Dockerfile`: contains the instructions for building the docker image
+* `app.py`: contains the Web application code (Flask framework)
+* `upload_docker.sh`: upload the image to Docker Hub
+* `Makefile`: instructions to group some commands
