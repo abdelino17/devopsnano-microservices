@@ -1,0 +1,8 @@
+Flag --generator has been deprecated, has no effect and will be removed in the future.
+Error from server (AlreadyExists): pods "udacity-devops" already exists
+NAME                                       READY   STATUS    RESTARTS   AGE
+prom-demo-prometheus-node-exporter-wlmhm   1/1     Running   3          25h
+udacity-devops                             1/1     Running   0          57s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
