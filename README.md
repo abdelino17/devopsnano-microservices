@@ -1,4 +1,4 @@
-[![abdelino17](https://circleci.com/gh/abdelino17/devopsnano-microservices.svg?style=shield)](https://circleci.com/gh/abdelino17/devopsnano-microservices)
+[![abdelino17](https://circleci.com/gh/abdelino17/devopsnano-microservices.svg?style=svg)](https://circleci.com/gh/abdelino17/devopsnano-microservices)
 
 ## Project Overview
 
